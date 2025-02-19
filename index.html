@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Spirax&display=swap" rel="stylesheet">
+
+		<title>FM Activa 98.3 Mhz</title>
+		<meta name="vieport" content="width=divice-with, incial	-scale=1" />
+		<style>
+			body {
+				background-image: url("https://i.ibb.co/R0y5Cvc/radio.jpg");
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				margin: 0;
+				padding: 0;
+				font-family: Arial, sans-serif;
+                background-attachment: fixed;
+			    }  
+			.contenedor 
+				{
+			  	background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				animation-name: fondo;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease;
+				animation-direction: alternate;
+    			}
+			@keyframes fondo
+				{ 
+				from{backdrop-filter: blur(0px);}
+				to{backdrop-filter: blur(8px);}				
+				}
+    		.encabezado 
+				{
+				padding-top: 10px;
+				padding-bottom: 10px;
+				background: transparent;
+				text-align: center;
+                color: #FFFFFF;
+				}
+			.encabezado h1 
+				{
+                font-family: 'Bangers', cursive;
+				margin: 0;
+				padding: 0;
+				font-size: 100px;
+                text-shadow: 0px 0px 20px red, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
+               	}
+			.encabezado img 
+				{
+				margin: 0;
+				padding: 0;
+				width: 300px;
+				height: 300px;
+				}
+			.contenido 
+				{
+				padding-top: 10px;
+				padding-bottom: 10px;
+				background: transparent;
+				text-align: center;
+				}
+			.contenido h2
+				{
+				margin: 0;
+				padding: 0;
+				font-size: 50px;
+				text-shadow: 4px 4px 6px white, 3px 3px 3px blue;
+				text-decoration-line: underline;
+				}
+			.contenido p 
+				{
+				margin: 10px;
+				padding: 0;
+				font-weight: bold;
+				font-size: 1.5em;
+				}
+			.reproductor
+				{
+				margin-top: 20px;
+				margin-bottom: 20px;
+				width: 200px;
+				}
+			.pie 
+				{
+				padding-top: 10px;
+				padding-bottom: 10px;
+				background: transparent;
+				text-align: center;
+				}
+			.pie img 
+				{
+				margin: 0;
+				padding: 0;
+				width: 40px;
+				height: 40px;
+				}
+            .ico
+				{	
+				filter:brightness(80%) contrast(90%);
+				transition: 1s;
+				}
+            .ico:hover 
+            	{
+				filter:brightness(150%) contrast(138%);
+				margin-left: 10px;
+				margin-right: 10px;
+				}
+			.img_ico
+				{
+				border-radius: 100px;
+				width: 90px;
+				transition: 1s;
+				}
+			.img_ico:hover
+				{
+				width: 120px;
+				}
+			.img_whatapp
+				{
+            	display: none;
+       		 	}
+				.Autor
+				{
+				font-family: 'Spirax', cursive;
+				font-weight: bold;
+				letter-spacing: 3px;
+				text-shadow: 0px 0px 30px yellow, -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 red;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="contenedor">
+            
+				<div class="encabezado">
+				<h1>FM Activa 98.3 MHz</h1>
+				</div>
+			<div class="contenido">
+				<h2> <strong> Escucha nuestra radio en vivo!</strong></h2>
+				<p style="font-family: 'Playfair Display', serif;color: white; font-size: 30px;">Aquí podrás escuchar nuestra radio en vivo, sin importar donde estés.</p>
+                
+                <div class="pie">
+                    <img style="height: 400px;width: 400px; border-radius: 50px;box-shadow: 5px 5px 100px rgba(255, 0, 0, 0.3),-5px 5px 100px rgba(255, 0, 0, 0.3),5px -5px 100px rgba(255, 0, 0, 0.3), -5px -5px 100px rgba(255, 0, 0, 0.3) " src="https://activafm983.argentinastream.com/logos/logo.png" alt="Radio" />
+                </div>
+
+				
+				<audio class="reproductor" controls autoplay>                    
+					<source src="http://stream.zeno.fm/v5u17um951zuv" type="audio/mpeg">
+				</audio>
+				
+				<p style="font-family: 'Playfair Display', serif;" >Síguenos en nuestras redes sociales:</p>
+				
+				<a class="ico" href="https://www.facebook.com/profile.php?id=100066626200264"><img class="img_ico" src="https://activafm983.argentinastream.com/images/facebook.png" alt="Facebook" /></a>
+				<a class="ico" href="https://api.whatsapp.com/send?phone=2994516303&text="><img class="img_ico" src="https://activafm983.argentinastream.com/images/whatsapp.png" alt="logo whatsapp" /></a>
+				<a class="ico" href="https://www.instagram.com/FMActiva983Mhz"><img class="img_ico" src="https://activafm983.argentinastream.com/images/instagram.png" alt="Instagram" /></a>
+				<br>
+				<div style="text-align: right;margin-right: 1cm;">
+				<span style="font-weight: bold;font-style: italic;"> Diseño:</span>
+				<span class="Autor">Lucas Barrionuevo</span>
+				</div>
+			</div>
+					
+		</div>
+	</body>
+</html>
